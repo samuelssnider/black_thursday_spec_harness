@@ -142,7 +142,7 @@ RSpec.describe "Iteration 0" do
 
       price = BigDecimal.new(10)
       expected = engine.items.find_all_by_price(price)
-
+#
       expect(expected.length).to eq 63
 
       price = BigDecimal.new(20000)
